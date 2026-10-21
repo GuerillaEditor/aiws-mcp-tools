@@ -1,0 +1,16 @@
+{
+  "name": "buzz-managed",
+  "version": "0.2.22",
+  "source": "C:\\GithubRepo\\buzz-mcp\\dist\\buzz-mcp.mjs",
+  "source_commit": "5870e40426a4011c33251ac26e82cd8e614f83d2",
+  "source_sha256": "b4d591d71802276350d404b9f8b49fd76f635b73105861d252c4969b0ae84d81",
+  "output": "buzz-managed.mjs",
+  "output_sha256": "fff5c9a164fce60f7edca219884c6fc114b7f7a40abad8817941cf5815778bbf",
+  "patches": [
+    "require Buzz-managed in-memory identity with explicit agent pin and owner delegation",
+    "remove legacy resolver and disk-writing inline self-test",
+    "disable automatic profile publication at startup",
+    "return full event IDs and allowlisted thread/attachment tags from buzz_read",
+    "return structured event, channel, root, reply, and attachment data from buzz_reply"
+  ]
+}
